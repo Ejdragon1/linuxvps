@@ -10,4 +10,4 @@ jobs:
     - uses: actions/checkout@v3
       name: Invoke-WebRequest https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip -OutFile ngrok.zip
     - uses: mxschmitt/action-tmate@v3
-      name: mxschmitt/action-tmate@v3
+      name: tmate
